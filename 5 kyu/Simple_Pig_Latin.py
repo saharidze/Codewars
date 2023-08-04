@@ -7,4 +7,4 @@ def pig_it(text):
             result.append(new_word)
         else:
             result.append(word)
-    return ' '.join(result)
+    return " ".join(result)

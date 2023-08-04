@@ -1,8 +1,8 @@
 def solution(s):
-    res = ''
+    res = ""
     for i in s:
         if i.upper() == i:
-            res += " "+i
+            res += " " + i
         else:
             res += i
     return res

@@ -1,6 +1,6 @@
 def rot13(message):
-    alphabet = list('abcdefghijklmnopqrstuvwxyz')
-    output = ''
+    alphabet = list("abcdefghijklmnopqrstuvwxyz")
+    output = ""
     for letter in message:
         if letter.lower() in alphabet:
             uppercase = letter.isupper()
@@ -8,7 +8,7 @@ def rot13(message):
             new_letter = alphabet[(index + 13) % len(alphabet)]
             if uppercase:
                 new_letter = new_letter.upper()
-            output += (new_letter)
+            output += new_letter
         else:
             output += letter
     return output

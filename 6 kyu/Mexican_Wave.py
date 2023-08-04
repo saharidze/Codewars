@@ -3,5 +3,5 @@ def wave(str):
     for i in range(len(str)):
         if str[i].isspace():
             continue
-        result.append(str[:i] + str[i].upper() + str[i + 1:])
+        result.append(str[:i] + str[i].upper() + str[i + 1 :])
     return result
