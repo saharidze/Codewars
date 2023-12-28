@@ -1,3 +1,6 @@
+from __future__ import annotations
+
+
 def unique_in_order(s):
     if len(s) == 0:
         return []

@@ -1,3 +1,6 @@
+from __future__ import annotations
+
+
 def tribonacci(s, n):
     if len(s) >= n:
         return s[:n]

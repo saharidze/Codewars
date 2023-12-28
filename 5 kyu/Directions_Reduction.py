@@ -1,5 +1,11 @@
+from __future__ import annotations
+
+
 def dirReduc(arr):
-    opposites = {"NORTH": "SOUTH", "SOUTH": "NORTH", "WEST": "EAST", "EAST": "WEST"}
+    opposites = {
+        'NORTH': 'SOUTH', 'SOUTH': 'NORTH',
+        'WEST': 'EAST', 'EAST': 'WEST',
+    }
     stack = []
     for direction in arr:
         if stack and stack[-1] == opposites[direction]:

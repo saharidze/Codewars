@@ -1,3 +1,6 @@
+from __future__ import annotations
+
+
 def find_uniq(arr):
     arr1 = set(arr)
     for i in arr1:

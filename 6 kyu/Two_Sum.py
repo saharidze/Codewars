@@ -1,3 +1,6 @@
+from __future__ import annotations
+
+
 def two_sum(nums, target):
     num_dict = {}
     for i, num in enumerate(nums):

@@ -1,6 +1,9 @@
+from __future__ import annotations
+
+
 def rot13(message):
-    alphabet = list("abcdefghijklmnopqrstuvwxyz")
-    output = ""
+    alphabet = list('abcdefghijklmnopqrstuvwxyz')
+    output = ''
     for letter in message:
         if letter.lower() in alphabet:
             uppercase = letter.isupper()

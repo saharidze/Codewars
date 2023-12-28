@@ -1,3 +1,6 @@
+from __future__ import annotations
+
+
 def persistence(num):
     count = 0
     while len(str(num)) > 1:

@@ -1,3 +1,6 @@
+from __future__ import annotations
+
+
 def narcissistic(value):
     res = 0
     n = len(str(value))

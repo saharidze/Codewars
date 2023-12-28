@@ -1,6 +1,7 @@
 """
 https://www.codewars.com/kata/554ca54ffa7d91b236000023
 """
+from __future__ import annotations
 
 
 def delete_nth(order, max_e):

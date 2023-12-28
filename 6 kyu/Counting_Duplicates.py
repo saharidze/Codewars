@@ -1,3 +1,6 @@
+from __future__ import annotations
+
+
 def duplicate_count(text):
     cnt = 0
     text = text.lower()
